@@ -16,18 +16,18 @@ This repository contains a simple application to demonstrate the use of Docker f
 ## Getting Started
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/docker-testapp.git
+    
+    git clone https://github.com/HimanshuKumar101/Docker_Project.git
     cd docker-testapp
     ```
 
 2. Build the Docker image:
-    ```bash
+
     docker build -t docker-testapp .
     ```
 
 3. Run the container:
-    ```bash
+
     docker run -p 8080:8080 docker-testapp
     ```
 
@@ -36,12 +36,12 @@ This repository contains a simple application to demonstrate the use of Docker f
 ## Using Docker Compose
 
 1. Start the application with Docker Compose:
-    ```bash
+
     docker-compose up
     ```
 
 2. Stop the application:
-    ```bash
+    
     docker-compose down
     ```
 
